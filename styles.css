@@ -5,6 +5,7 @@ body {
     flex-direction: column;
     width: 100%;
     margin: 0;
+    background-color: #253f4b;
 
 }
 
@@ -15,7 +16,7 @@ body {
     width: 100%;
     /* margin: 25px; */
     background-color: #253f4b;
-    color: #c8dfea;
+    color: white;
     padding: 15px;
 
 }
@@ -38,4 +39,43 @@ ul {
     width: 150px;
     height: 150px;
     border-radius: 10px;
+}
+
+.main {
+    display: flex;
+    gap: 150px;
+    /* justify-content: space-between; */
+    background-color: #253f4b;
+    margin: 24px;
+}
+
+.sep {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    width: 324px;
+}
+
+.pic {
+    width: 400px;
+    height: 200px;
+}
+
+button {
+    background-color: #608da2;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.boxes {
+    background-color: white;
+    width: 100%;
 }
