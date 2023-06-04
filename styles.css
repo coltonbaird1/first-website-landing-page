@@ -36,8 +36,8 @@ ul {
 
 .square {
     border: 5px solid blueviolet;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     border-radius: 10px;
 }
 
@@ -47,6 +47,7 @@ ul {
     /* justify-content: space-between; */
     background-color: #253f4b;
     margin: 24px;
+    
 }
 
 .sep {
@@ -56,6 +57,7 @@ ul {
     flex-direction: column;
     color: white;
     width: 324px;
+    margin: 0px;
 }
 
 .pic {
@@ -78,4 +80,25 @@ button {
 .boxes {
     background-color: white;
     width: 100%;
+}
+
+h1 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    gap: 10px;
 }
