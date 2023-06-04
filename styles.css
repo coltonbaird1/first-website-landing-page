@@ -1,9 +1,10 @@
 body {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     width: 100%;
+    margin: 0;
 
 }
 
@@ -33,7 +34,8 @@ ul {
 
 
 .square {
-    border: 1px solid blueviolet;
-    width: 50px;
-    height: 50px;
+    border: 5px solid blueviolet;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
 }
